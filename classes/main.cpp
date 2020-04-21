@@ -1,18 +1,22 @@
 #include <iostream>
 #include <string>
 
-class Person {
+class Person 
+{
 
 	public:
-		Person(std::string z) { //contructors do not have a return type and will always be ran automatically 
+		Person(std::string z) //contructors do not have a return type and will always be ran automatically 
+		{ 
 			setName(z);
 		}
 
-		void setName(std::string x) {
+		void setName(std::string x) 
+		{
 			name = x;
 		}
 		
-		std::string getName() {
+		std::string getName() 
+		{
 			return name;
 		}
 	private:

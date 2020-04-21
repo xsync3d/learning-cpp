@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stockmarketsim.cpp">
+    <ClCompile Include="const.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

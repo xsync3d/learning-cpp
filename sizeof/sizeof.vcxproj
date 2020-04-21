@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E7CB9C92-4012-4605-BF6B-1514CE5D642A}</ProjectGuid>
+    <ProjectGuid>{9E959CBB-CEE8-4BE3-A5D8-5ECB8B4D8EA6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>stockmarketsim</RootNamespace>
+    <RootNamespace>sizeof</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stockmarketsim.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
